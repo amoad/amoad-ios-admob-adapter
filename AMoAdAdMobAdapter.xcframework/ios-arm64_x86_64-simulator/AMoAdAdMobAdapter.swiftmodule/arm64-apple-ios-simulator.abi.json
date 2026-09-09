@@ -1,0 +1,574 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AMoAdAdMobAdapter",
+    "printedName": "AMoAdAdMobAdapter",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "GADMediationAdapterAMoAdSettings",
+        "printedName": "GADMediationAdapterAMoAdSettings",
+        "declKind": "Struct",
+        "usr": "s:05AMoAdB10MobAdapter012GADMediationdaB8SettingsV",
+        "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB8SettingsV",
+        "moduleName": "AMoAdAdMobAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GADMediationAdapterAMoAd",
+        "printedName": "GADMediationAdapterAMoAd",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationAdapterAMoAd",
+                "printedName": "AMoAdAdMobAdapter.GADMediationAdapterAMoAd",
+                "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(im)init",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0CACycfc",
+            "moduleName": "AMoAdAdMobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADVersionNumber",
+                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(cm)adapterVersion",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C14adapterVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "AMoAdAdMobAdapter",
+            "static": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adSDKVersion",
+            "printedName": "adSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADVersionNumber",
+                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(cm)adSDKVersion",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C12adSDKVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "AMoAdAdMobAdapter",
+            "static": true,
+            "objc_name": "adSDKVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkExtrasClass",
+            "printedName": "networkExtrasClass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any GoogleMobileAds.GADAdNetworkExtras.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any GoogleMobileAds.GADAdNetworkExtras.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdNetworkExtras",
+                        "printedName": "GoogleMobileAds.GADAdNetworkExtras",
+                        "usr": "c:objc(pl)GADAdNetworkExtras"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(cm)networkExtrasClass",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C18networkExtrasClassSo012GADAdNetworkG0_pXpSgyFZ",
+            "moduleName": "AMoAdAdMobAdapter",
+            "static": true,
+            "objc_name": "networkExtrasClass",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationBannerAdConfiguration",
+                "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationBannerAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.GADMediationBannerAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationBannerAd",
+                            "printedName": "any GoogleMobileAds.GADMediationBannerAd",
+                            "usr": "c:objc(pl)GADMediationBannerAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(im)loadBannerForAdConfiguration:completionHandler:",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C10loadBanner3for17completionHandlerySo0egB13ConfigurationC_So0egB13EventDelegate_pSgSo0egB0_pSg_s5Error_pSgtctF",
+            "moduleName": "AMoAdAdMobAdapter",
+            "objc_name": "loadBannerForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.GADMediationRewardedAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAd",
+                            "printedName": "any GoogleMobileAds.GADMediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(im)loadRewardedAdForAdConfiguration:completionHandler:",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C012loadRewardedB03for17completionHandlerySo0egB13ConfigurationC_So0egB13EventDelegate_pSgSo0egB0_pSg_s5Error_pSgtctF",
+            "moduleName": "AMoAdAdMobAdapter",
+            "objc_name": "loadRewardedAdForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedInterstitialAd",
+            "printedName": "loadRewardedInterstitialAd(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.GADMediationRewardedAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAd",
+                            "printedName": "any GoogleMobileAds.GADMediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd(im)loadRewardedInterstitialAdForAdConfiguration:completionHandler:",
+            "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C024loadRewardedInterstitialB03for17completionHandlerySo0egB13ConfigurationC_So0egB13EventDelegate_pSgSo0egB0_pSg_s5Error_pSgtctF",
+            "moduleName": "AMoAdAdMobAdapter",
+            "objc_name": "loadRewardedInterstitialAdForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AMoAdAdMobAdapter@objc(cs)GADMediationAdapterAMoAd",
+        "mangledName": "$s05AMoAdB10MobAdapter012GADMediationdaB0C",
+        "moduleName": "AMoAdAdMobAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AMoAdAdMobAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ai-workspace\/worktrees\/spm-support\/ultima-ios-sdk\/AMoAd\/AMoAdAdMobAdapter\/GADMediationAdapterAMoAdSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 7,
+      "value": "\"1.0.3\""
+    }
+  ]
+}

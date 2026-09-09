@@ -15,12 +15,10 @@ let package = Package(
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", from: "9.0.0")
     ],
     targets: [
-        // url / checksum はリリースごとに更新する
-        // ( checksum は make.sh admobadapter が zip 生成時に出力する値を転記する )
+        // xcframework は ultima-ios-sdk の make.sh admobadapter がリリースごとに配置する
         .binaryTarget(
             name: "AMoAdAdMobAdapter",
-            url: "https://github.com/amoad/amoad-ios-admob-adapter/releases/download/1.0.4/AMoAdAdMobAdapter.xcframework.zip",
-            checksum: "RELEASE_TIME_CHECKSUM_PLACEHOLDER"
+            path: "AMoAdAdMobAdapter.xcframework"
         ),
         // binaryTarget には依存を宣言できないため、このターゲットで
         // AMoAd SDK と Google Mobile Ads SDK への依存を束ねる
