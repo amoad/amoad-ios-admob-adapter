@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         // AMoAd SDK の SPM 対応バージョン以降を要求する
-        .package(url: "https://github.com/amoad/amoad-ios-sdk", from: "6.3.1"),
+        .package(url: "https://github.com/amoad/amoad-ios-sdk", from: "6.3.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", from: "9.0.0")
     ],
     targets: [
