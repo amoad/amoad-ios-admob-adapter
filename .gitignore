@@ -1,0 +1,8 @@
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# ビルド検証の作業ディレクトリ
+build/
