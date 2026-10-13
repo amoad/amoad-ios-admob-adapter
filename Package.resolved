@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "amoad-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/amoad/amoad-ios-sdk",
+      "state" : {
+        "revision" : "e90304c8d86e4a5e2c3a5bf9d7a393c94fcc13a7",
+        "version" : "6.3.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-mobile-ads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads",
+      "state" : {
+        "revision" : "d1fa1f5c1dfe3b43d56c73f4de388ad3316618bc",
+        "version" : "13.11.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-user-messaging-platform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
+      "state" : {
+        "revision" : "13b248eaa73b7826f0efb1bcf455e251d65ecb1b",
+        "version" : "3.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
