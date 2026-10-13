@@ -96,8 +96,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GADVersionNumber",
-                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "name": "VersionNumber",
+                "printedName": "GoogleMobileAds.VersionNumber",
                 "usr": "c:@S@GADVersionNumber"
               }
             ],
@@ -121,8 +121,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GADVersionNumber",
-                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "name": "VersionNumber",
+                "printedName": "GoogleMobileAds.VersionNumber",
                 "usr": "c:@S@GADVersionNumber"
               }
             ],
@@ -147,17 +147,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any GoogleMobileAds.GADAdNetworkExtras.Type)?",
+                "printedName": "(any GoogleMobileAds.AdNetworkExtras.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "any GoogleMobileAds.GADAdNetworkExtras.Type",
+                    "printedName": "any GoogleMobileAds.AdNetworkExtras.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADAdNetworkExtras",
-                        "printedName": "GoogleMobileAds.GADAdNetworkExtras",
+                        "name": "AdNetworkExtras",
+                        "printedName": "GoogleMobileAds.AdNetworkExtras",
                         "usr": "c:objc(pl)GADAdNetworkExtras"
                       }
                     ]
@@ -191,24 +191,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADMediationBannerAdConfiguration",
-                "printedName": "GoogleMobileAds.GADMediationBannerAdConfiguration",
+                "name": "MediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationBannerAdConfiguration",
                 "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                "printedName": "((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationBannerAdEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                    "printedName": "(any GoogleMobileAds.MediationBannerAdEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADMediationBannerAdEventDelegate",
-                        "printedName": "any GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "name": "MediationBannerAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationBannerAdEventDelegate",
                         "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
                       }
                     ],
@@ -217,17 +217,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?)",
+                    "printedName": "((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "(any GoogleMobileAds.GADMediationBannerAd)?",
+                        "printedName": "(any GoogleMobileAds.MediationBannerAd)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "GADMediationBannerAd",
-                            "printedName": "any GoogleMobileAds.GADMediationBannerAd",
+                            "name": "MediationBannerAd",
+                            "printedName": "any GoogleMobileAds.MediationBannerAd",
                             "usr": "c:objc(pl)GADMediationBannerAd"
                           }
                         ],
@@ -275,24 +275,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADMediationRewardedAdConfiguration",
-                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "name": "MediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationRewardedAdConfiguration",
                 "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                    "printedName": "(any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADMediationRewardedAdEventDelegate",
-                        "printedName": "any GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "name": "MediationRewardedAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationRewardedAdEventDelegate",
                         "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
                       }
                     ],
@@ -301,17 +301,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?)",
+                    "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "(any GoogleMobileAds.GADMediationRewardedAd)?",
+                        "printedName": "(any GoogleMobileAds.MediationRewardedAd)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "GADMediationRewardedAd",
-                            "printedName": "any GoogleMobileAds.GADMediationRewardedAd",
+                            "name": "MediationRewardedAd",
+                            "printedName": "any GoogleMobileAds.MediationRewardedAd",
                             "usr": "c:objc(pl)GADMediationRewardedAd"
                           }
                         ],
@@ -359,24 +359,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADMediationRewardedAdConfiguration",
-                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "name": "MediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationRewardedAdConfiguration",
                 "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any GoogleMobileAds.GADMediationRewardedAdEventDelegate)?",
+                    "printedName": "(any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADMediationRewardedAdEventDelegate",
-                        "printedName": "any GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "name": "MediationRewardedAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationRewardedAdEventDelegate",
                         "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
                       }
                     ],
@@ -385,17 +385,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "((any GoogleMobileAds.GADMediationRewardedAd)?, (any Swift.Error)?)",
+                    "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "(any GoogleMobileAds.GADMediationRewardedAd)?",
+                        "printedName": "(any GoogleMobileAds.MediationRewardedAd)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "GADMediationRewardedAd",
-                            "printedName": "any GoogleMobileAds.GADMediationRewardedAd",
+                            "name": "MediationRewardedAd",
+                            "printedName": "any GoogleMobileAds.MediationRewardedAd",
                             "usr": "c:objc(pl)GADMediationRewardedAd"
                           }
                         ],
@@ -564,11 +564,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ai-workspace\/worktrees\/spm-support\/ultima-ios-sdk\/AMoAd\/AMoAdAdMobAdapter\/GADMediationAdapterAMoAdSettings.swift",
+      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ios-sdk\/AMoAd\/AMoAdAdMobAdapter\/GADMediationAdapterAMoAdSettings.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 7,
-      "value": "\"1.0.3\""
+      "value": "\"2.0.0\""
     }
   ]
 }
